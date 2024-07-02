@@ -6,7 +6,7 @@ public class BackupFiles {
 
     public static void createBackup(String sourceDir) {
         Path sourcePath = Paths.get(sourceDir);
-        Path backupPath = Paths.get("./backup");
+        Path backupPath = Paths.get("backup");
 
         if (!Files.exists(backupPath)) {
             try {
